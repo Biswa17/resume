@@ -8,6 +8,8 @@
 \usepackage{titlesec}
 \usepackage{fontawesome}
 \usepackage{url}
+\usepackage{microtype}
+\usepackage{xurl}
 
 \geometry{a4paper, margin=0.5in, top=0.5in, bottom=0.5in}
 
@@ -22,7 +24,7 @@
 \definecolor{textgrey}{gray}{0.3}
 \definecolor{sectioncolor}{gray}{0.6}
 
-\titleformat{\section}{\color{sectioncolor}\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titleformat{\section}{\color{sectioncolor}\large\bfseries}{}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \renewcommand{\familydefault}{\sfdefault}
@@ -32,6 +34,8 @@
 \pagestyle{empty}
 
 \begin{center}
+    \includegraphics[width=0.12\textwidth,height=0.12\textwidth,keepaspectratio,clip]{passport_photo.jpeg} \\
+    \vspace{3mm}
     {\Huge \textbf{Biswadeep Baruah}} \\
     \vspace{2mm}
     {\Large \color{titlegrey} Software Developer}
@@ -76,10 +80,10 @@ Highly skilled backend developer with a strong proficiency in Python and Laravel
 \section*{Degrees}
 \textcolor{textgrey}{
 \begin{itemize}
-    \item \textbf{2022 MTECH} - University of Hyderabad - CGPA: 81.30
-    \item \textbf{2018 BTECH} - Jorhat Engineering College - CGPA: 66.00
-    \item \textbf{2013 HSSLC} - Vikas Vidyaniketan - Percentage: 81.00
-    \item \textbf{2011 HSLC} - Christ Jyoti School - Percentage: 69.00
+    \item \textbf{2022 MTECH} - University of Hyderabad - CGPA: 81.30 \hfill \includegraphics[width=0.06\textwidth,height=0.06\textwidth,keepaspectratio]{uoh.png}
+    \item \textbf{2018 BTECH} - Jorhat Engineering College - CGPA: 66.00 \hfill \includegraphics[width=0.06\textwidth,height=0.06\textwidth,keepaspectratio]{JEC_logo.jpg}
+    \item \textbf{2013 HSSLC} - Vikas Vidyaniketan - Percentage: 81.00 \hfill \includegraphics[width=0.06\textwidth,height=0.06\textwidth,keepaspectratio]{VIKAS.png}
+    \item \textbf{2011 HSLC} - Christ Jyoti School - Percentage: 69.00 \hfill \includegraphics[width=0.06\textwidth,height=0.06\textwidth,keepaspectratio]{CJS.png}
 \end{itemize}
 }
 
@@ -122,7 +126,7 @@ Highly skilled backend developer with a strong proficiency in Python and Laravel
 \begin{rightcolumn}
 
 \section*{WORK EXPERIENCE}
-\subsection*{Oct 2022–Present Expand My Business}
+\subsection*{Oct 2022–Present Expand My Business \hfill \includegraphics[width=0.06\textwidth,height=0.06\textwidth,keepaspectratio]{exmyb.png}}
 \subsubsection*{Backend Developer (PHP) | Dates: Feb 2023 - Feb 2024}
 \textcolor{textgrey}{
 \begin{itemize}
