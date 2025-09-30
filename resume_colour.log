@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.9.29)  29 SEP 2025 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.9.29)  29 SEP 2025 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**resume_colour.tex
+(./resume_colour.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -563,84 +563,55 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/progressbar/progressbar.sty
-Package: progressbar 2014/05/04 v1.0b\nobreakspace {}4: progressbar
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count289
-\calc@Bcount=\count290
-\calc@Adimen=\dimen267
-\calc@Bdimen=\dimen268
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count291
-\calc@Cskip=\skip57
-)
-\BarWidth=\skip58
-\BarWidthCenter=\skip59
-\BarHeight=\skip60
-\BarHeightCenter=\skip61
-\BarBorderWidth=\skip62
-\BarRoundedCorners=\skip63
-\BarPartWidth=\skip64
-\BarSubDivisionsWidthANU=\skip65
-\BarSubDivisionsWidthBNU=\skip66
-\BarSubDivisionsWidthCNU=\skip67
-\c@progressbar@counter=\count292
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen267
+\enit@toks=\toks33
+\enit@inbox=\box63
+\enit@count@id=\count289
+\enitdp@description=\count290
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...0em}{}[\color{primaryblue}\titlerule[1pt]]
-                                                  
-? 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count293
-\l__pdf_internal_box=\box63
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box64
 )
-(./resume.aux)
-\openout1 = `resume.aux'.
+(./resume_colour.aux)
+\openout1 = `resume_colour.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen269
-\scratchbox=\box64
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen270
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count292
+\scratchdimen=\dimen268
+\scratchbox=\box65
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen269
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -658,15 +629,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.90755pt, 539.69278pt, 28.90755pt)
-* v-part:(T,H,B)=(28.90755pt, 787.23175pt, 28.90755pt)
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=539.69278pt
-* \textheight=787.23175pt
-* \oddsidemargin=-43.36244pt
-* \evensidemargin=-43.36244pt
-* \topmargin=-80.36244pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -684,8 +655,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring ON on input line 60.
+\AtBeginShipoutBox=\box66
+Package hyperref Info: Link coloring ON on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -695,24 +666,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count300
+\c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
-(./resume.out) (./resume.out)
+(./resume_colour.out) (./resume_colour.out)
 \@outlinefile=\write4
-\openout4 = `resume.out'.
+\openout4 = `resume_colour.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 63.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 63.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -720,257 +691,39 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- ABD: EveryShipout initializing macros
-<passport_photo.jpeg, id=7, 3131.7pt x 4175.6pt>
-File: passport_photo.jpeg Graphic file (type jpg)
-<use passport_photo.jpeg>
-Package pdftex.def Info: passport_photo.jpeg  used on input line 79.
-(pdftex.def)             Requested size: 32.351pt x 43.13467pt.
+
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 79.
+ut line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 79.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 79.
-
-Overfull \hbox (9.33333pt too wide) in paragraph at lines 79--80
- [][][][][][] 
- []
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 90.
+nput line 83.
+
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomethree/bx/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 90.
+(Font)              using `U/fontawesomethree/m/n' instead on input line 83.
 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.90 \section*{\faUser\ PERSONAL INFO}
-                                      
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.90 \section*{\faUser\ PERSONAL INFO}
-                                      
-? 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 102.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 95.
 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.102 \section*{\faCogs\ TECHNICAL SKILLS}
-                                          
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.102 \section*{\faCogs\ TECHNICAL SKILLS}
-                                          
-? 
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 116.
+ut line 109.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 116.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 109.
 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.116 \section*{\faGraduationCap\ EDUCATION}
-                                            
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.116 \section*{\faGraduationCap\ EDUCATION}
-                                            
-? 
-Runaway argument?
-{ \small \textbf {2022 - MTECH} \\ University of Hyderabad \\ \textcolor \ETC.
-! Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.122 
-      
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
-
- []
-
-! Extra }, or forgotten \endgroup.
-l.134 }
-       
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.137 \section*{\faLanguage\ LANGUAGES}
-                                       
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.137 \section*{\faLanguage\ LANGUAGES}
-                                       
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.146 \section*{\faTrophy\ ACHIEVEMENTS}
-                                        
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.146 \section*{\faTrophy\ ACHIEVEMENTS}
-                                        
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.157 \section*{\faHeart\ INTERESTS}
-                                    
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.157 \section*{\faHeart\ INTERESTS}
-                                    
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.165 \section*{\faGlobe\ SOCIAL}
-                                 
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.165 \section*{\faGlobe\ SOCIAL}
-                                 
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.177 ...tion*{\faBriefcase\ PROFESSIONAL SUMMARY}
-                                                  
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.177 ...tion*{\faBriefcase\ PROFESSIONAL SUMMARY}
-                                                  
-? 
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.183 \section*{\faBuilding\ WORK EXPERIENCE}
-                                             
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.183 \section*{\faBuilding\ WORK EXPERIENCE}
-                                             
-? 
-Runaway argument?
-{ \begin {itemize} \item \textbf {Snabbcom (Feb 2023 - May 2023):} De\ETC.
-! Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.191 
-      
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192     \item \textbf
-                       {Tata Star Delite \& Star Quik (May 2023 - Nov 2023):...
-
-? 
-
-Underfull \hbox (badness 10000) detected at line 192
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194     \item \textbf
-                       {Socialee E-commerce App (Sept 2023 - Ongoing):} Deve...
-
-? 
-
-Underfull \hbox (badness 10000) detected at line 194
-[][]
- []
-
-
-! LaTeX Error: \begin{rightcolumn} on input line 175 ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 \end{itemize}
-                   
-? 
-! Extra }, or forgotten \endgroup.
-l.196 }
-       
-? 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-203.
+184.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -979,132 +732,96 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.46185pt too wide) in paragraph at lines 203--203
-\OT1/cmss/m/n/10 (-20) place con-nect-ing ven-dors and clients
- []
 
-
-Overfull \hbox (2.3899pt too wide) in paragraph at lines 203--203
-\OT1/cmss/m/n/10 (-20) and dig-i-tal mar-ket-ing ver-ti-cals. Built
- []
-
-
-Overfull \hbox (3.61444pt too wide) in paragraph at lines 203--203
-\OT1/cmss/m/n/10 (-20) and op-ti-mized database per-for-mance. 
- []
-
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.206 \section*{\faCode\ KEY PROJECTS}
-                                      
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.206 \section*{\faCode\ KEY PROJECTS}
-                                      
-? 
-
-Overfull \hbox (2.6666pt too wide) in paragraph at lines 208--214
-[] \OT1/cmss/bx/n/10 Re-gional Trans-port Of-fice Ve-hi-cle Reg-
- []
-
-
-Overfull \hbox (4.62016pt too wide) in paragraph at lines 216--221
-[][] \OT1/cmss/bx/n/10 Par-al-lel Pro-gram-ming Op-ti-miza-tion[]
- []
-
-
-Overfull \hbox (0.53946pt too wide) in paragraph at lines 223--229
-[][] \OT1/cmss/bx/n/10 Crypt-anal-y-sis of Lightweight Block
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./passport_photo.jpeg>]
-! Argument of \ttl@rule@i has an extra }.
-<inserted text> 
-                \par 
-l.232 \section*{\faWrench\ CORE COMPETENCIES}
-                                             
-? 
-Runaway argument?
-1pt\@@par 
-! Paragraph ended before \ttl@rule@i was complete.
-<to be read again> 
-                   \par 
-l.232 \section*{\faWrench\ CORE COMPETENCIES}
-                                             
-? 
-
-Overfull \hbox (0.3357pt too wide) in paragraph at lines 242--242
-[]\OT1/cmss/bx/n/10 API De-vel-op-ment: \OT1/cmss/m/n/10 (-20) REST-ful APIs,
- []
-
-
-! LaTeX Error: \begin{paracol} on input line 85 ended by \end{rightcolumn}.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 \end{rightcolumn}
-                       
+l.187 \end{itemize}\\[1.5mm]
+                            
 ? 
 
-! LaTeX Error: \begin{document} ended by \end{paracol}.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245 \end{paracol}
-                   
+l.193 \end{itemize}\\[1.5mm]
+                            
 ? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.245 \end{paracol}
-                   
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \end{itemize}\\[1.5mm]
+                            
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
-(./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
-Package rerunfilecheck Info: File `resume.out' has not changed.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 \end{itemize}\\[1.5mm]
+                            
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 228.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 228.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 228.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+ (./resume_colour.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package rerunfilecheck Info: File `resume_colour.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 20246 strings out of 483183
- 375841 string characters out of 5966292
- 667364 words of memory out of 5000000
- 34868 multiletter control sequences out of 15000+600000
- 537718 words of font info for 53 fonts, out of 8000000 for 9000
+ 20390 strings out of 483183
+ 377662 string characters out of 5966292
+ 687494 words of memory out of 5000000
+ 35015 multiletter control sequences out of 15000+600000
+ 540300 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,7n,60p,411b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/prakash/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.6
+ 60i,7n,60p,415b,797s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/prakash/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.6
 00pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.
 enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree
 .enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.
 enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on resume.pdf (1 page, 771939 bytes).
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on resume_colour.pdf (1 page, 108843 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 12824 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 15885 words of extra memory for PDF output out of 17280 (max. 10000000)
 
